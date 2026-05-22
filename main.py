@@ -3,11 +3,13 @@ from __future__ import annotations
 import os
 
 import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import seaborn as sns
+
+matplotlib.use("Agg")  # безопасный backend без GUI (Tk недоступен)
+
+import matplotlib.pyplot as plt  # noqa: E402
+import numpy as np  # noqa: E402
+import pandas as pd  # noqa: E402
+import seaborn as sns  # noqa: E402
 
 
 def create_vector() -> np.ndarray:

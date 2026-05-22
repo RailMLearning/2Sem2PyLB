@@ -125,4 +125,7 @@ def test_plot_line():
 
 
 if __name__ == "__main__":
-    print("Запустите python3 -m pytest test.py -v для проверки лабораторной работы.")
+    print(
+        "Запустите python -m pytest test_main.py -v "
+        "для проверки лабораторной работы."
+    )
